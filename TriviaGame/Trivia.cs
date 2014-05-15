@@ -8,6 +8,14 @@ namespace TriviaGame
 {
     class Trivia
     {
+        public string question { get; set; }
+        public string answer { get; set; }
+        public Trivia(string Q, string A)
+        {
+            this.question = Q;
+            this.answer = A;
+        
+        }
      
     }
 }
